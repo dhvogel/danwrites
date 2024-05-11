@@ -1,3 +1,0 @@
-{{- if not .Date.IsZero -}}
-<span>{{- .Date | time.Format (default "January 2, 2006" .Site.Params.DateFormat) -}}</span>
-{{- end }}
