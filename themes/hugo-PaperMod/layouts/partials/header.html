@@ -75,7 +75,7 @@
                     </svg>
                 </button>
                 {{- end }}
-
+<!-- 
                 {{- $lang := .Lang}}
                 {{- $separator := or $label_text (not .Site.Params.disableThemeToggle)}}
                 {{- with $.Site.Home.AllTranslations }}
@@ -96,10 +96,10 @@
                     {{- end -}}
                     {{- end}}
                 </ul>
-                {{- end }}
+                {{- end }} -->
             </span>
         </div>
-        {{- $currentPage := . }}
+        <!-- {{- $currentPage := . }}
         <ul id="menu">
             {{- range .Site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
@@ -116,6 +116,6 @@
                 </a>
             </li>
             {{- end }}
-        </ul>
+        </ul> -->
     </nav>
 </header>
