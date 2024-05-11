@@ -1,4 +1,4 @@
-baseURL: "https://dansramblings.com"
+baseURL: "https://dhvogel.github.io/danwrites"
 title: Dan Writes
 paginate: 5
 theme: hugo-PaperMod
@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-googleAnalytics: G-PHB7R2WKSF
+googleAnalytics: G-4B44Q1L9NC
 
 minify:
   disableXML: true
